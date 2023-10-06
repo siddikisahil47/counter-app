@@ -1,0 +1,55 @@
+/* styles.css */
+
+/* adding google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    flex: flex;
+    justify-items: end;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 25px;
+}
+
+span {
+    font-size: 6rem;
+}
+
+button {
+    font-size: 40px;
+    padding: 15px;
+    margin: 50px 15px;
+    border: 1px;
+    border-radius: 15px;
+}
+
+
+
+.increase {
+    color: azure;
+    background-color: green;
+}
+
+.increase:hover {
+    background-color: rgb(17, 94, 17);
+}
+
+.reset:hover {
+    background-color: rgb(117, 117, 117);
+    color: azure;
+}
+
+.decrease {
+    color: azure;
+    background-color: red;
+}
+
+.decrease:hover {
+    background-color: rgb(168, 35, 35);
+}
